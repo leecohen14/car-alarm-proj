@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btns.container {
+    flex-direction: row;
+}
+
+.btn {
+    border: 1px solid gray;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(230, 230, 230);
+    border: 1px solid red;
+}
+
+.accident {
+    background-color: red;
+}
+
+.horn {
+    background-color: rgb(255, 238, 0);
+}
+
+.crazy {
+    background-color: rgb(96, 151, 235);
+}
